@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style_criaticket.css">
+   <title>Cadastro de Tickets</title>
+   <link rel="icon" href="img/LogoRecifeTecnologia.png">
+</head>
+
+<body>
+    <div id="app">
+
+
+   <header>
+       <div class="Logo">
+           <img src="img/LogoRecifeTecnologia.png" alt="Logo Da Empresa">
+       </div>
+       <div id="avatar">
+           <a href=""><img src="img/imgusuario.png" ></a>
+       </div>
+   </header>
+   <div class="Container">
+       <div class="Container-2">
+           <nav class="LinksTelas">
+               <ul>
+                   <li><a href="PaginaInicial.html"><img src="img/imgPaginaInicial.png" alt="Página Inicial">Página Inicial</a></li>
+                   <li><a href="PaginaTickets.html"><img src="img/imgTickets.png" alt="Tickets">Tickets</a></li>
+                   <li><a href="PaginaCadastroUsuario.html"><img src="img/imgusuario.png" alt="Cadastro de Usuario">Cadastro de Usuário</a></li>
+                   <li><a href="PaginaCadastroEmpresas.html"><img src="img/imgCadastroEmpresa.png" alt="Cadastro de Empresa">Cadastro de Empresas</a></li>
+                   <li><a href="PaginaAnaliseDados.html"><img src="img/imgAnaliseDados.png" alt="Analise e Dados">Análise e Dados</a></li>
+               </ul>
+           </nav>
+       </div>
+
+      
+
+       <div class="Container-3">
+         <main class="main">
+            <form class="formulario">
+               <section class="ticket">
+                  <h2><img src="img/imgTickets.png" alt="Icone de Tickets">Tickets</h2>
+ 
+
+               </section>   
+               <div id="linha-horizontal"></div>
+               <div class="inputs">
+              
+               <label for="solicitante">Solicitante</label>
+               <input type="text" id="solicitante" name="solicitante">
+
+               <label for="servico">Serviço</label>
+               <input type="text" id="servico" name="servico">
+
+               <label for="categoria">Categoria</label>
+               <input type="text" id="categoria" name="categoria"><br>
+
+               <label for="urgencia">Urgência</label>
+               <input type="text" id="urgencia" name="urgencia">
+
+               <label for="responsavel">Responsável</label>
+               <input type="text" id="responsavel" name="responsavel">
+
+               <label for="data_ticket">Data do Ticket</label>
+               <input type="text" id="data_ticket" name="data_ticket">   
+               </div>
+            </form>
+
+         </div>
+
+         <div id="linha-vertical"></div>
+
+
+         <div class="criar_ticket">
+            <label for="caixa_texto">Assunto</label>
+            <input type="text" class="caixa_texto">
+            <button type="submit" class="salvar_ticket">Salvar</button>
+            
+
+         </div>
+
+
+        </main>
+
+      
+
+   
+    <script src="script.js"></script>
+    <footer></footer>
+    </div>
+</div>
+</body>
+
+
+</html>
