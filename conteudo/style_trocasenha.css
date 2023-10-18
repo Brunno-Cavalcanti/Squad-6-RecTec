@@ -92,14 +92,38 @@ section {
   background-size: cover;
 }
 
+#icone {
+   position: absolute;
+   top: 60%;
+   left: 83%;
+   right: 20px;
+   transform: translateY(-50%);
+   background: url('./img/olhoA.png');
+   background-size: cover;
+   width: 30px;
+   height: 30px;
+   cursor: pointer;
+ 
+  }
+ 
+ #icone.hides {
+   background: url('./img/olhoF.png');
+   background-size: cover;
+ }
+
 
 
 #label-usuario {
   margin-bottom: 20px;
 }
 #label-senha {
-  margin-bottom: 10px;
+  margin-bottom: 17px;
 }
+
+#label-senha-2 {
+   margin-bottom: 10px;
+ }
+
 
 .links{
   display: flex;
@@ -180,7 +204,7 @@ svg:hover {
   border: none;
   color: white;
   background-color: #E5751F;
-  width: 100px;
+  width: 130px;
   height: 30px;
   border-radius: 5px;
   font-size: 12px;
@@ -194,5 +218,3 @@ svg:hover {
   bottom: 0;
   background: linear-gradient(0deg, #E5751F -3.07%, rgba(229, 117, 31, 0.00) 100.72%);
 }
-
-

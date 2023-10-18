@@ -3,8 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Recife Tecnologia</title>
-        <link rel="stylesheet" href="style_login.css">
+        <title>Trocar senha</title>
+        <link rel="stylesheet" href="style_trocasenha.css">
     </head>
 <body>
     <header> 
@@ -19,28 +19,34 @@
                 <label id="label-usuario">
                     <input type="text" 
                     name="usuario" 
-                    placeholder="Usuário">
+                    placeholder="Informe o usuário">
                 </label>
 
                 <section>
                     <label id="label-senha">
                         <input type="password" 
-                        name="senha" 
-                        placeholder="Senha"
+                        name="nova_senha" 
+                        placeholder="Informe a nova senha"
                         id="password" required>
                     </label>
                 </section>
                 <div id="icon" onclick="showHide()"></div>
 
-                <div class="links">
-                    <a class="cadastro" href="">Cadastre-se</a>
-                    <a class="nova_senha" href="TrocaSenha.html">Esqueceu sua senha?</a>
-                </div>
-                <button class="botao"> ENVIAR </button>
+                <section>
+                  <label id="label-senha">
+                      <input type="password" 
+                      name="confirme_senha" 
+                      placeholder="Confirme a nova senha"
+                      id="senha" required>
+                  </label>
+              </section>
+              <div id="icone" onclick="showHides()"></div>
+
+                <button class="botao"> Alterar senha </button>
         </div>
         </section>
 </main>
     <footer></footer>
-    <script src="script.js"></script>
+    <script src="scripts_troca.js"></script>
 </body>
 </html>
