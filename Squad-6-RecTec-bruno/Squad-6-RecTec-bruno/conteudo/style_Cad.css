@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header {
+    background: linear-gradient(180deg, #004650 5.88%, rgba(0, 70, 80, 0.00) 95.29%);
+}
+
+.Logo-Empresa {
+    margin-top: 1%;
+    margin-left: 2%;
+    width: 200px;
+    height: auto;
+}
+
+#Config,
+#Sair {
+    width: 20px;
+    height: auto;
+}
+
+header img[src="img/imgusuario.png"],
+nav img[src="img/imgusuario.png"] {
+    width: 30px;
+    height: auto;
+}
+
+input {
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
+}
+
+#Salvar {
+    border: none;
+    background-color: #E5751F;
+}
+
+@media (max-width: 700px) {
+    table {
+        display: flex;
+        flex-direction: column;
+    }
+
+    thead,
+    tbody,
+    tr,
+    th,
+    td {
+        display: block;
+    }
+}
+
+footer {
+    background: linear-gradient(0deg, #E5751F -3.07%, rgba(229, 117, 31, 0.00) 100.72%);
+}
