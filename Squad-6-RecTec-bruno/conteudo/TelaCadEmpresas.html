@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_Cad.css">
+    <link rel="icon" href="img/LogoRecifeTecnologia.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Cadastro Empresa</title>
+</head>
+
+<body>
+    <header class="container-fluid d-flex align-items-center justify-content-between" style="height: 25%;">
+        <div class="Logo-Empresa">
+            <img src="img/LogoRecifeTecnologia.png" class="img-thumbnail bg-transparent border-0" alt="Logo Da Empresa">
+        </div>
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle bg-transparent border-0 text-black" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="img/imgusuario.png" alt="Logo Da Empresa">
+            </button>
+            <ul class="dropdown-menu bg-transparent border-0">
+                <li><a class="link-offset-2 link-underline link-underline-opacity-0 text-black" href="TelaHome.html"><img src="img/imgConfig.png" alt="Configuração" id="Config">Configuração</a></li>
+                <li><a class="link-offset-2 link-underline link-underline-opacity-0 text-black" href="login.html"><img src="img/imgSair.png" alt="Sair" id="Sair">Sair</a></li>
+            </ul>
+        </div>
+    </header>
+
+<div class="container-fluid d-flex">
+        <nav class="nav flex-column w-50 p-3 grid gap-3">
+            <a class="nav-link text-black" href="TelaHome.html"><img src="img/imgPaginaInicial.png" alt="Página Inicial">Página Inicial</a>
+            <a class="nav-link text-black" href="TelaTicket.html"><img src="img/imgTickets.png" alt="Tickets">Tickets</a>
+            <a class="nav-link text-black" href="TelaCad.html"><img src="img/imgusuario.png" alt="Cadastro de Usuario">Cadastro de Usuário</a>
+            <a class="nav-link text-black" href="TelaDados.html"><img src="img/imgAnaliseDados.png" alt="Analise e Dados">Análise e Dados</a>
+        </nav>
+
+    <form class="row g-3">
+        <div class="col-md-4">
+          <label for="Nome Fantasia" class="form-label">Nome Fantasia</label>
+          <input type="text" class="form-control" id="Nome Fantasia" placeholder="Ex: Juninho Cabelo Verde" required>
+        </div>
+        <div class="col-md-4">
+          <label for="Razão Social" class="form-label">Razão Social</label>
+          <input type="text" class="form-control" id="Razão Social" placeholder="Ex: RH" required>
+        </div>
+        <div class="col-3">
+          <label for="CPFCNPJ" class="form-label">CPF / CNPJ</label>
+          <input type="text" class="form-control" id="CPFCNPJ" placeholder="Ex: 000.000.000-00" required>
+        </div>
+        <div class="col-3">
+          <label for="Usuário" class="form-label">Usuário</label>
+          <input type="text" class="form-control" id="Usuário" placeholder="Ex: Juninho" required>
+        </div>
+        <div class="col-md-3">
+          <label for="Senha" class="form-label">Senha</label>
+          <input type="password" class="form-control" id="Senha" placeholder="Ex: Juninho123" required>
+        </div>
+        <div class="col-md-5">
+          <label for="ConfirmarSenha" class="form-label">Confirmar senha</label>
+          <input type="password" class="form-control" id="ConfirmarSenha" placeholder="Ex: Juninho123" required>
+        </div>
+        <div class="col-3">
+            <label for="Email" class="form-label">E-mail</label>
+            <input type="email" class="form-control" id="Email" placeholder="Ex: Juninho@gmail.com" required>
+          </div>
+          <div class="col-md-3">
+            <label for="Estado" class="form-label">Estado</label>
+            <input type="text" class="form-control" id="Estado" placeholder="Ex: Pernanbuco" required>
+          </div>
+          <div class="col-md-3">
+            <label for="Cidade" class="form-label">Cidade</label>
+            <input type="text" class="form-control" id="Cidade" placeholder="Ex: Recife" required>
+          </div>
+          <div class="col d-flex align-items-end p-2">
+            <button type="submit" class="btn btn-primary" id= "Salvar">Salvar</button>
+          </div>
+      </form>
+</div>
+
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">ID</th>
+        <th scope="col">Nome Fantasia</th>
+        <th scope="col">Razão Social</th>
+        <th scope="col">CPF/CNPJ</th>
+        <th scope="col">E-mail</th>
+        <th scope="col">Estado</th>
+        <th scope="col">Cidade</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Carrefour</td>
+        <td> Carrefour Comércio e Indústria LTDA</td>
+        <td>12.345.678/0001-00.</td>
+        <td>Carrefour@gmail.com</td>
+        <td>Pernambuco</td>
+        <td>Recife</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Itaú</td>
+        <td> Itaú Unibanco Banco Múltiplo S.A</td>
+        <td>12.345.678/0002-00.</td>
+        <td>itau@gmail.com</td>
+        <td>Pernambuco</td>
+        <td>Recife</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>Globo</td>
+        <td>Globo Comunicação e Participações S/A</td>
+        <td>12.345.678/0003-00.</td>
+        <td>globo@gmail.com</td>
+        <td>Pernambuco</td>
+        <td>Recife</td>
+      </tr>
+    </tbody>
+  </table>
+
+    <script src="script_Cad.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <footer class="container-fluid position-fixed bottom-0 right-0 left-0" style="height: 8%;"></footer>
+</body>
+
+</html>
