@@ -1,46 +1,32 @@
 * {
-    padding: 0;
     margin: 0;
-}
-/* Estilos para o corpo (body) */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-}
-
-/* Estilos para o cabeçalho */
-header {
-    display: flex;
-    height: 180px;
-    margin-bottom: 100px;
-    background: linear-gradient(180deg, #004650 5.88%, rgba(0, 70, 80, 0.00) 95.29%);
-}
-#logoPrincipal {
-     display: flex;
-     margin-left: 50px;
-     margin-top: 23px;
-}
-
-#iconUsuario {
-    margin-left: 94%;
-    margin-top: -10%;
-}
-.navegaveis {
-    font-size: medium;
-    margin-top: 120px;
-    margin-right: 200px;
-    width: 218px;
-    height: 200px;
-    margin-left: 2%;
-    float: left;
-}
-
-#cadastroUsuario {
-    width: 36px;
-    margin-left: -2%;
-    margin-top: 2px;
-}
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+ }
  
+ 
+ header {
+    background: linear-gradient(180deg, #004650 5.88%, rgba(0, 70, 80, 0.00) 95.29%);
+ }
+ 
+ .Logo-Empresa {
+    margin-top: 1%;
+    margin-left: 2%;
+    width: 200px;
+    height: auto;
+ }
+ 
+ #Config,
+ #Sair {
+    width: 20px;
+    height: auto;
+ }
+ 
+ header img[src="img/imgusuario.png"],
+ nav img[src="img/imgusuario.png"] {
+    width: 30px;
+    height: auto;
+ } 
 /* Estilos para a seção principal */
 .conteudoPrincipal1 {
     display: grid;
@@ -140,5 +126,5 @@ footer {
 /* Estilos para tornar as imagens responsivas */
 img {
     max-width: 100%;
-    height: auto;
+    height: auto;
 }

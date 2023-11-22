@@ -4,7 +4,6 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
 header {
     background: linear-gradient(180deg, #004650 5.88%, rgba(0, 70, 80, 0.00) 95.29%);
 }
@@ -28,33 +27,11 @@ nav img[src="img/imgusuario.png"] {
     height: auto;
 }
 
-table {
-    margin-top: 1%;
-}
-
-input {
-    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
-
-}
-
-#Salvar {
-    border: none;
-    background-color: #E5751F;
-}
-
-@media (max-width: 700px) {
-    table {
-        display: flex;
-        flex-direction: column;
-    }
-
-    thead,
-    tbody,
-    tr,
-    th,
-    td {
-        display: block;
-    }
+#Bloco {
+    margin: auto;
+    height: 250px;
+    background-color: #ebebeb;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.719);
 }
 
 footer {

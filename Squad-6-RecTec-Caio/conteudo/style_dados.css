@@ -15,6 +15,12 @@ header {
     height: auto;
 }
 
+#Config,
+#Sair {
+    width: 20px;
+    height: auto;
+}
+
 header img[src="img/imgusuario.png"],
 nav img[src="img/imgusuario.png"] {
     width: 30px;
